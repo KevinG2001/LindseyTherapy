@@ -21,7 +21,9 @@ export default function About() {
 						>
 							About Us
 						</Typography>
-						<Typography variant="h5">People you can reach!</Typography>
+						<Typography variant="h5" sx={{ fontWeight: "600" }}>
+							People you can reach!
+						</Typography>
 						<Typography variant="body1">
 							We are a team of dedicated professionals committed to providing
 							high-quality therapy services.
