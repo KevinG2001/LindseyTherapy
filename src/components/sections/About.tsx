@@ -19,14 +19,18 @@ export default function About() {
 							variant="h6"
 							sx={{ fontWeight: "bold", color: "primary.main" }}
 						>
-							About Us
+							About Lindsey
 						</Typography>
 						<Typography variant="h5" sx={{ fontWeight: "600" }}>
-							People you can reach!
+							A calm, confidential space to work through what's on your mind
 						</Typography>
 						<Typography variant="body1">
-							We are a team of dedicated professionals committed to providing
-							high-quality therapy services.
+							Lindsey is a qualified, accredited psychotherapist based in Dublin
+							12, working with individuals on issues like anxiety, low mood,
+							stress, and relationship difficulties. Her approach is warm and
+							person-centred — sessions are led by what matters most to you, at
+							a pace that feels right. Each session is typically held in person
+							and gives you dedicated time and space, without judgment.
 						</Typography>
 					</Grid>
 				</Grid>

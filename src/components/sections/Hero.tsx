@@ -11,7 +11,7 @@ export default function Hero() {
 					color="primary"
 					sx={{ fontWeight: "600" }}
 				>
-					Therapy in Dublin!
+					In-Person Therapy in Dublin 12
 				</Typography>
 				<Typography
 					variant="h4"
@@ -19,13 +19,12 @@ export default function Hero() {
 					gutterBottom
 					sx={{ fontWeight: "600" }}
 				>
-					Local Therapy here in D12
+					A space to be heard, close to home
 				</Typography>
 				<Typography variant="body1" component="h2" gutterBottom>
-					Based in Dublin 12, I offer a range of therapy services to support
-					your mental health and well-being. Whether you're dealing with stress,
-					anxiety, depression, or other challenges, I'm here to help you
-					navigate through them.
+					Lindsey offers in-person therapy in Dublin 12, supporting adults
+					through stress, anxiety, depression, and life's harder moments.
+					Sessions are one-to-one, confidential, and paced around what you need.
 				</Typography>
 				<Button variant="contained" color="primary">
 					Get In Touch!

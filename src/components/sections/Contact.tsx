@@ -3,6 +3,7 @@ import {
 	Button,
 	Container,
 	Grid,
+	Stack,
 	TextField,
 	Typography,
 } from "@mui/material";
@@ -21,25 +22,25 @@ export default function Contact() {
 							variant="h6"
 							sx={{ fontWeight: "bold", color: "primary.main" }}
 						>
-							Contact Us
+							Ready to talk?
 						</Typography>
-						<Typography variant="h5" sx={{ fontWeight: "600" }}>
+						<Typography variant="h5" gutterBottom sx={{ fontWeight: "600" }}>
 							Tell us what you need!
 						</Typography>
-						<Typography variant="body1">
-							Send us a message and we will get back to you as soon as possible.
-							We are here to help you with any questions or concerns you may
-							have.
+						<Typography variant="body1" gutterBottom>
+							If you'd like to book a session or have questions before getting
+							started, reach out using the form below or contact Lindsey
+							directly by phone or email. All enquiries are confidential.
 						</Typography>
-						<Typography>
+						<Stack sx={{ flexDirection: "row", alignItems: "center", gap: 1 }}>
 							<PhoneIcon /> [Phone Number]
-						</Typography>
-						<Typography>
+						</Stack>
+						<Stack sx={{ flexDirection: "row", alignItems: "center", gap: 1 }}>
 							<EmailIcon /> [Email Address]
-						</Typography>
-						<Typography>
+						</Stack>
+						<Stack sx={{ flexDirection: "row", alignItems: "center", gap: 1 }}>
 							<PinDropIcon /> [Address]
-						</Typography>
+						</Stack>
 					</Grid>
 					<Grid size={6}>
 						<Box
