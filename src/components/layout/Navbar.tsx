@@ -25,16 +25,33 @@ function Navbar() {
 	return (
 		<AppBar position="static">
 			<Toolbar>
-				<Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-					Lindsey Psycho Therapy
+				<Box
+					width="5%"
+					height="100%"
+					component="img"
+					alt="HeroImg"
+					src="https://placehold.co/600x400"
+					sx={{ p: 2 }}
+				></Box>
+				<Typography
+					variant="h5"
+					component="div"
+					sx={{ flexGrow: 1, fontWeight: "600" }}
+				>
+					Lindsey Burke <br /> Psycho Therapy
 				</Typography>
 				{/* Desktop */}
 				<Box sx={{ display: { xs: "none", md: "flex" } }}>
 					{pages.map((page) => (
 						<Button
+							size="large"
 							key={page}
 							href={`#${page.toLowerCase()}`}
-							sx={{ color: "white" }}
+							sx={{
+								color: "primary.main",
+								backgroundColor: "background.paper",
+								m: 1,
+							}}
 						>
 							{page}
 						</Button>
