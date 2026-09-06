@@ -14,7 +14,7 @@ import PinDropIcon from "@mui/icons-material/PinDropOutlined";
 
 export default function Contact() {
 	return (
-		<Box sx={{ backgroundColor: "background.paper" }}>
+		<Box id="contact" sx={{ backgroundColor: "background.paper" }}>
 			<Container sx={{ p: 4 }}>
 				<Grid container spacing={4}>
 					<Grid size={6}>

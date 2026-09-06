@@ -2,7 +2,7 @@ import { Box, Button, Container, Typography } from "@mui/material";
 
 export default function Hero() {
 	return (
-		<Box sx={{ backgroundColor: "background.paper", py: 8 }}>
+		<Box id="hero" sx={{ backgroundColor: "background.paper", py: 8 }}>
 			<Container>
 				<Typography
 					variant="h5"
@@ -26,7 +26,7 @@ export default function Hero() {
 					through stress, anxiety, depression, and life's harder moments.
 					Sessions are one-to-one, confidential, and paced around what you need.
 				</Typography>
-				<Button variant="contained" color="primary">
+				<Button variant="contained" color="primary" href={"#contact"}>
 					Get In Touch!
 				</Button>
 			</Container>

@@ -2,7 +2,7 @@ import { Box, Container, Grid, Typography } from "@mui/material";
 
 export default function About() {
 	return (
-		<Box>
+		<Box id="about">
 			<Container sx={{ p: 4 }}>
 				<Grid container spacing={4}>
 					<Grid size={6}>
